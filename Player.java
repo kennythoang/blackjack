@@ -26,6 +26,14 @@ public class Player {
     public int getPoints() {
         return points;
     }
+    
+    public int getNumAces() {
+    	return numAces;
+    }
+    
+    public int getOneAces() {
+    	return oneAces;
+    }
 
     public boolean isBust() {
         return points > 21;

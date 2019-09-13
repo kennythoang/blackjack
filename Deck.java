@@ -27,4 +27,8 @@ public class Deck {
         }
         Collections.shuffle(deck);
     }
+    
+    public int getSize() {
+    	return deck.size();
+    }
 }

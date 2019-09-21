@@ -254,3 +254,10 @@ public class BlackjackTest {
     	assertEquals("15: TEN of CLUBS ACE of DIAMONDS FOUR of HEARTS", player.toString());
     }
 }
+enum Suit {
+    CLUBS, SPADES, HEARTS, DIAMONDS
+}
+
+enum Value {
+    TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE;
+}
